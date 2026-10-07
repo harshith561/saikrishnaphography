@@ -12,10 +12,7 @@ frontend/dist
 .env.*
 backend/.env
 
-# Local video files (exceeds GitHub 100MB file limit)
-frontend/public/films/
-*.mp4
-*.mov
+
 
 # Logs
 logs
