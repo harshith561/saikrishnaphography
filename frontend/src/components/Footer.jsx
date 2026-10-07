@@ -76,15 +76,19 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-10 border-t border-brand-charcoal/50 flex flex-col md:flex-row justify-between items-center gap-4">
-        <p className="text-brand-ivory/40 text-xs font-sans tracking-widest uppercase">
-          © {currentYear} Sai Krishna Photography. All Rights Reserved.
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-10 border-t border-brand-charcoal/50 flex flex-col items-center justify-center text-center gap-2">
+        <p className="text-brand-ivory/50 text-xs font-sans tracking-widest uppercase">
+          © 2026 Sai Krishna Photography. All Rights Reserved.
+          |Powered by{" "}
+          <a
+            href="https://digitalverto.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-brand-gold transition-colors"
+          >
+            Digital Verto
+          </a>
         </p>
-        <div className="flex gap-6 text-brand-ivory/40 text-xs font-sans tracking-widest uppercase">
-          <a href="#" className="hover:text-brand-gold transition-colors">Instagram</a>
-          <a href="#" className="hover:text-brand-gold transition-colors">Facebook</a>
-          <a href="#" className="hover:text-brand-gold transition-colors">YouTube</a>
-        </div>
       </div>
     </footer>
   );
