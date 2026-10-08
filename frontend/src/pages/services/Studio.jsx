@@ -8,15 +8,15 @@ export default function Studio() {
     description: 'Elegant, minimalist studio portraiture crafted with absolute precision in Ibrahimpatnam, Vijayawada. Professional headshots, fashion & family portraits.',
     keywords: 'studio photography Vijayawada, professional portraits, headshots photographer, fashion photography studio, indoor photoshoot, family studio portraits, Ibrahimpatnam photo studio',
     path: '/services/studio',
-    image: '/photos/studio/2.jpg',
+    image: '/photos/studio/1.jpg',
   });
 
   return (
     <main className="bg-brand-dark min-h-screen flex flex-col">
-      <PageHero heading="Precision. Light. Craft." subheading="Clean, professional, controlled." description="Elegant, minimalist portraiture crafted with absolute precision." image="/photos/studio/2.jpg" />
+      <PageHero heading="Precision. Light. Craft." subheading="Clean, professional, controlled." description="Elegant, minimalist portraiture crafted with absolute precision." image="/photos/studio/1.jpg" />
 
       <section className="max-w-7xl mx-auto px-6 pb-24 w-full">
-        <h3 className="text-brand-gold font-sans text-xs tracking-widest uppercase mb-12 text-center">Featured Work</h3>
+        <h3 className="text-brand-gold font-sans text-2xl tracking-widest uppercase mb-6 mt-6 text-center">Featured Work</h3>
         <ServiceGallery theme="studio" />
       </section>
       <section className="bg-brand-dark px-6 max-w-4xl mx-auto text-center py-24 flex-grow flex flex-col justify-center border-t border-brand-charcoal">

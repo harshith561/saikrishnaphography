@@ -22,7 +22,7 @@ export default function ServiceDetailLayout({ data }) {
 
       {/* Mini Gallery for the specific service */}
       <section className="max-w-7xl mx-auto px-6 pb-24 w-full">
-        <h3 className="text-brand-gold font-sans text-xs tracking-widest uppercase mb-12 text-center">Featured Work</h3>
+        <h3 className="text-brand-gold font-sans text-xs tracking-widest uppercase mb-12  mt-2 text-center">Featured Work</h3>
         <PortfolioGrid items={3} />
       </section>
 

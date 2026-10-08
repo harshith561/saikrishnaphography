@@ -16,7 +16,7 @@ export default function Event() {
       <PageHero heading="Every Event, Perfectly Framed" subheading="Dynamic, multi-scene energy." description="From keynotes to the dance floor, we capture the pulse of the room." image="/photos/event/2.jpg" />
 
       <section className="max-w-7xl mx-auto px-6 pb-24 w-full">
-        <h3 className="text-brand-gold font-sans text-xs tracking-widest uppercase mb-12 text-center">Featured Work</h3>
+        <h3 className="text-brand-gold font-sans text-2xl tracking-widest uppercase mb-6 mt-6 text-center">Featured Work</h3>
         <ServiceGallery theme="event" />
       </section>
       <section className="bg-brand-dark px-6 max-w-4xl mx-auto text-center py-24 flex-grow flex flex-col justify-center border-t border-brand-charcoal">

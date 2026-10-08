@@ -37,7 +37,7 @@ export default function ServiceGallery({ theme }) {
           />
 
           {/* Hover overlay */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10 flex flex-col justify-end p-6">
+          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent z-10 flex flex-col justify-end p-6">
             <span className="text-brand-gold font-sans text-[10px] tracking-[0.25em] uppercase font-semibold">
               FEATURED PERSPECTIVE
             </span>
@@ -67,7 +67,7 @@ export default function ServiceGallery({ theme }) {
             className="absolute inset-0 w-full h-full object-cover object-[center_20%] group-hover:scale-105 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)]"
           />
 
-          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10 flex flex-col justify-end p-5">
+          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent z-10 flex flex-col justify-end p-5">
             <span className="text-brand-gold font-sans text-[9px] tracking-[0.2em] uppercase font-semibold">
               CANDID DETAIL
             </span>
@@ -97,7 +97,7 @@ export default function ServiceGallery({ theme }) {
             className="absolute inset-0 w-full h-full object-cover object-[center_20%] group-hover:scale-105 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)]"
           />
 
-          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10 flex flex-col justify-end p-5">
+          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent z-10 flex flex-col justify-end p-5">
             <span className="text-brand-gold font-sans text-[9px] tracking-[0.2em] uppercase font-semibold">
               SIGNATURE COMPOSITION
             </span>

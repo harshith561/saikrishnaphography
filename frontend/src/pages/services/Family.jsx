@@ -22,7 +22,7 @@ export default function Family() {
     description: 'Candid and joyful family photography in Vijayawada. Preserve the legacy of your family tree with timeless portraits & 4K cinema by Sai Krishna Photography.',
     keywords: 'family photography Vijayawada, family portrait, generational photography, family photoshoot, kids photography, baby photography, joint family portrait, family video Vijayawada, milestone photography',
     path: '/services/family',
-    image: '/photos/family/2.jpg',
+    image: '/photos/family/1.jpg',
   });
 
   const [activeCategory, setActiveCategory] = useState('all');
@@ -38,13 +38,13 @@ export default function Family() {
           heading="Every Generation, One Frame"
           subheading="Generational warmth."
           description="Candid and joyful moments that preserve the legacy of your family tree."
-          image="/photos/family/2.jpg"
+          image="/photos/family/1.jpg"
         />
       </div>
 
       {/* Featured Stills Gallery */}
       <section className="max-w-7xl mx-auto px-6 pb-24 w-full">
-        <h3 className="text-brand-gold font-sans text-xs tracking-widest uppercase mb-12 text-center">Featured Work</h3>
+        <h3 className="text-brand-gold font-sans text-2xl tracking-widest uppercase mb-6  mt-6 text-center">Featured Work</h3>
         <ServiceGallery theme="family" />
       </section>
 

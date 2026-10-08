@@ -8,15 +8,15 @@ export default function Packages() {
     description: 'Transparent pricing for heirlooms you will treasure for a lifetime. Explore our wedding, family, and event photography packages in Vijayawada.',
     keywords: 'wedding photography packages Vijayawada, photography pricing, pre-wedding shoot cost, photoshoot packages Andhra Pradesh, affordable premium photography, wedding videography price',
     path: '/packages',
-    image: '/photos/packages/2.jpg',
+    image: '/photos/packages/1.jpg',
   });
 
   return (
     <main className="bg-brand-dark min-h-screen flex flex-col">
-      <PageHero heading="Find the Perfect Package" subheading="Elegant, simple, timeless." description="Transparent pricing for heirlooms you will treasure for a lifetime." image="/photos/packages/2.jpg" />
+      <PageHero heading="Find the Perfect Package" subheading="Elegant, simple, timeless." description="Transparent pricing for heirlooms you will treasure for a lifetime." image="/photos/packages/1.jpg" />
 
       <section className="max-w-7xl mx-auto px-6 pt-24 w-full">
-        <h3 className="text-brand-gold font-sans text-xs tracking-widest uppercase mb-12 text-center">Work Included in Every Package</h3>
+        <h3 className="text-brand-gold font-sans text-2xl tracking-widest uppercase mb-12 text-center">Work Included in Every Package</h3>
         <ServiceGallery theme="packages" />
       </section>
 

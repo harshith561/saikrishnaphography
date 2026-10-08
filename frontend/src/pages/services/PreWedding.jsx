@@ -25,7 +25,7 @@ export default function PreWedding() {
       />
 
       <section className="max-w-7xl mx-auto px-6 pb-24 w-full">
-        <h3 className="text-brand-gold font-sans text-xs tracking-widest uppercase mb-12 text-center">Featured Stills</h3>
+        <h3 className="text-brand-gold font-sans text-2xl tracking-widest uppercase mb-6 mt-6 text-center">Featured Stills</h3>
         <ServiceGallery theme="pre-wedding" />
       </section>
 

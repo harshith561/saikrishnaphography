@@ -25,7 +25,7 @@ export default function Wedding() {
       />
 
       <section className="max-w-7xl mx-auto px-6 pb-24 w-full">
-        <h3 className="text-brand-gold font-sans text-xs tracking-widest uppercase mb-12 text-center">Featured Gallery</h3>
+        <h3 className="text-brand-gold font-sans text-2xl tracking-widest uppercase mb-6 text-center mt-6 ">Featured Gallery</h3>
         <ServiceGallery theme="wedding" />
       </section>
 
