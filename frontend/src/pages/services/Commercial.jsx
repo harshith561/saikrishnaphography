@@ -13,7 +13,7 @@ export default function Commercial() {
 
   return (
     <main className="bg-brand-dark min-h-screen flex flex-col">
-      <PageHero heading="Photography That Sells the Story" subheading="Clean brand aesthetic." description="Premium product and brand photography with zero compromises." image="/photos/commercial/1.jpg" />
+      <PageHero  topheading="Commercial Photography"  heading="Photography That Sells the Story" subheading="Clean brand aesthetic." description="Premium product and brand photography with zero compromises." image="/photos/commercial/1.jpg" />
 
       <section className="max-w-7xl mx-auto px-6 pb-24 w-full">
         <h3 className="text-brand-gold font-sans text-2xl tracking-widest uppercase mb-6 mt-6 text-center">Featured Work</h3>

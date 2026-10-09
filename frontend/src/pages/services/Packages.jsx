@@ -13,7 +13,7 @@ export default function Packages() {
 
   return (
     <main className="bg-brand-dark min-h-screen flex flex-col">
-      <PageHero heading="Find the Perfect Package" subheading="Elegant, simple, timeless." description="Transparent pricing for heirlooms you will treasure for a lifetime." image="/photos/packages/1.jpg" />
+      <PageHero topheading="Packages" heading="Find the Perfect Package" subheading="Elegant, simple, timeless." description="Transparent pricing for heirlooms you will treasure for a lifetime." image="/photos/packages/1.jpg" />
 
       <section className="max-w-7xl mx-auto px-6 pt-24 w-full">
         <h3 className="text-brand-gold font-sans text-2xl tracking-widest uppercase mb-12 text-center">Work Included in Every Package</h3>

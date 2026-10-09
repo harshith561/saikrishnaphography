@@ -18,6 +18,7 @@ export default function PreWedding() {
   return (
     <main className="bg-brand-dark min-h-screen flex flex-col">
       <PageHero
+        topheading="Pre-Wedding Photography"
         heading="Falling in Love, One Frame at a Time"
         subheading="Romantic, cinematic, outdoors."
         description="Airy, golden hour portraits that capture the anticipation of your journey together."

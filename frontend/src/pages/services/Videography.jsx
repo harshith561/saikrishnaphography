@@ -33,6 +33,7 @@ export default function Videography() {
   return (
     <main className="bg-brand-dark min-h-screen flex flex-col">
       <PageHero
+       topheading="Videography"
         heading="Moments in Motion"
         subheading="Cinematic film-reel identity."
         description="A moody, filmic retelling of your most precious celebrations."

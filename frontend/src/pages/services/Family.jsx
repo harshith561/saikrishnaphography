@@ -35,6 +35,7 @@ export default function Family() {
     <main className="bg-brand-dark min-h-screen flex flex-col">
       <div className="-mt-[60px]">
         <PageHero
+          topheading="Family Photography"
           heading="Every Generation, One Frame"
           subheading="Generational warmth."
           description="Candid and joyful moments that preserve the legacy of your family tree."

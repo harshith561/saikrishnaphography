@@ -18,6 +18,7 @@ export default function Wedding() {
   return (
     <main className="bg-brand-dark min-h-screen flex flex-col">
       <PageHero
+        topheading="Wedding Photography"
         heading="Your Vows, Captured Forever"
         subheading="Candid documentary realism & 4K Cinema."
         description="Every fleeting smile, every joyful tear. We capture the unscripted magic of your big day."

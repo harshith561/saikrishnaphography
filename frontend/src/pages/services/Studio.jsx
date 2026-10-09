@@ -13,7 +13,7 @@ export default function Studio() {
 
   return (
     <main className="bg-brand-dark min-h-screen flex flex-col">
-      <PageHero heading="Precision. Light. Craft." subheading="Clean, professional, controlled." description="Elegant, minimalist portraiture crafted with absolute precision." image="/photos/studio/1.jpg" />
+      <PageHero topheading="Studio Photography" heading="Precision. Light. Craft." subheading="Clean, professional, controlled." description="Elegant, minimalist portraiture crafted with absolute precision." image="/photos/studio/1.jpg" />
 
       <section className="max-w-7xl mx-auto px-6 pb-24 w-full">
         <h3 className="text-brand-gold font-sans text-2xl tracking-widest uppercase mb-6 mt-6 text-center">Featured Work</h3>

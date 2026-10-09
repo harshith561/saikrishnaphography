@@ -14,7 +14,7 @@ export default function Maternity() {
 
   return (
     <main className="bg-brand-dark min-h-screen flex flex-col">
-      <PageHero heading="Glowing, Growing, Becoming" subheading="Soft glow, anticipation." description="Tender and serene portraits that capture the miracle of new life." image="/photos/maternity/2.jpg" />
+      <PageHero topheading="Maternity Photography" heading="Glowing, Growing, Becoming" subheading="Soft glow, anticipation." description="Tender and serene portraits that capture the miracle of new life." image="/photos/maternity/2.jpg" />
 
       <section className="max-w-7xl mx-auto px-6 pb-24 w-full">
         <h3 className="text-brand-gold font-sans text-2xl tracking-widest uppercase mb-6  mt-6 text-center">Featured Work</h3>
