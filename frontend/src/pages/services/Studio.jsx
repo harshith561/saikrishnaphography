@@ -1,6 +1,7 @@
 import { useSEO } from '../../hooks/useSEO';
 import PageHero from '../../components/PageHero';
 import ServiceGallery from '../../components/ServiceGallery';
+import ServiceOverview from '../../components/ServiceOverview';
 
 export default function Studio() {
   useSEO({
@@ -14,6 +15,11 @@ export default function Studio() {
   return (
     <main className="bg-brand-dark min-h-screen flex flex-col">
       <PageHero topheading="Studio Photography" heading="Precision. Light. Craft." subheading="Clean, professional, controlled." description="Elegant, minimalist portraiture crafted with absolute precision." image="/photos/studio/1.jpg" />
+
+      <ServiceOverview 
+        title="Studio Photography" 
+        description="Experience elegant, minimalist portraiture crafted with absolute precision. Our professional studio environment provides controlled lighting and a clean aesthetic, ideal for creating striking headshots, fashion portfolios, and timeless family portraits."
+      />
 
       <section className="max-w-7xl mx-auto px-6 pb-24 w-full">
         <h3 className="text-brand-gold font-sans text-2xl tracking-widest uppercase mb-6 mt-6 text-center">Featured Work</h3>

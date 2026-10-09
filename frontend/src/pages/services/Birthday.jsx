@@ -2,6 +2,7 @@ import { useSEO } from '../../hooks/useSEO';
 import PageHero from '../../components/PageHero';
 import ServiceGallery from '../../components/ServiceGallery';
 import BabyShinePromo from '../../components/BabyShinePromo';
+import ServiceOverview from '../../components/ServiceOverview';
 
 export default function Birthday() {
   useSEO({
@@ -15,6 +16,11 @@ export default function Birthday() {
   return (
     <main className="bg-brand-dark min-h-screen flex flex-col">
       <PageHero topheading="Birthday Photography" heading="Celebrations, Frozen in Joy" subheading="Colorful, dynamic energy." description="Playful and warm documentation of life’s most joyful milestones." image="/photos/birthday/1.jpg" />
+
+      <ServiceOverview 
+        title="Birthday Photography" 
+        description="From first birthdays to milestone celebrations, we document life’s most joyful moments with a playful and warm approach. Our birthday photography sessions are designed to capture the dynamic energy, genuine laughter, and colorful details of your special day, creating beautiful memories you will cherish forever."
+      />
 
       <section className="max-w-7xl mx-auto px-6 pb-24 w-full">
         <h3 className="text-brand-gold font-sans text-2xl tracking-widest uppercase mb-6 mt-6 text-center">Featured Work</h3>

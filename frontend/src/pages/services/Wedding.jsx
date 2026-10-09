@@ -2,6 +2,7 @@ import { useSEO } from '../../hooks/useSEO';
 import PageHero from '../../components/PageHero';
 import ServiceGallery from '../../components/ServiceGallery';
 import VideoShowcase from '../../components/VideoShowcase';
+import ServiceOverview from '../../components/ServiceOverview';
 import { getVideosByCategory } from '../../data/videos';
 
 export default function Wedding() {
@@ -23,6 +24,11 @@ export default function Wedding() {
         subheading="Candid documentary realism & 4K Cinema."
         description="Every fleeting smile, every joyful tear. We capture the unscripted magic of your big day."
         image="/photos/wedding/2.jpg"
+      />
+
+      <ServiceOverview 
+        title="Wedding Photography" 
+        description="Your wedding is a mosaic of fleeting smiles and joyful tears. Through candid documentary realism and 4K cinema, we capture the unscripted magic of your big day. From the sacred rituals to the grand celebrations, your vows are beautifully framed and preserved forever."
       />
 
       <section className="max-w-7xl mx-auto px-6 pb-24 w-full">

@@ -5,6 +5,7 @@ import { useSEO } from '../../hooks/useSEO';
 import PageHero from '../../components/PageHero';
 import ServiceGallery from '../../components/ServiceGallery';
 import VideoShowcase from '../../components/VideoShowcase';
+import ServiceOverview from '../../components/ServiceOverview';
 import { videos } from '../../data/videos';
 
 const VIDEO_TABS = [
@@ -38,6 +39,11 @@ export default function Videography() {
         subheading="Cinematic film-reel identity."
         description="A moody, filmic retelling of your most precious celebrations."
         image="/photos/videography/2.jpg"
+      />
+
+      <ServiceOverview 
+        title="Cinematic Videography" 
+        description="Relive your most precious celebrations through a moody, filmic lens. Our premium 4K HDR wedding videography, royal teasers, and cinematic highlight reels masterfully craft your unscripted moments into a visual masterpiece full of emotion and authenticity."
       />
 
       <section className="max-w-7xl mx-auto px-6 pb-24 w-full">

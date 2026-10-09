@@ -1,6 +1,7 @@
 import { useSEO } from '../../hooks/useSEO';
 import PageHero from '../../components/PageHero';
 import ServiceGallery from '../../components/ServiceGallery';
+import ServiceOverview from '../../components/ServiceOverview';
 
 export default function Drone() {
   useSEO({
@@ -14,6 +15,11 @@ export default function Drone() {
   return (
     <main className="bg-brand-dark min-h-screen flex flex-col">
       <PageHero topheading="Drone Photography" heading="A New Perspective on Your Story" subheading="Sweeping aerial reveals." description="Grand, cinematic views that provide breathtaking context to your celebration." image="/photos/drone/2.jpg" />
+
+      <ServiceOverview 
+        title="Drone Photography" 
+        description="Add breathtaking context to your celebration with our sweeping aerial views. Our professional drone photography and 4K aerial videography capture the grand scale of your events, offering a cinematic perspective that elevates your story to new heights."
+      />
 
       <section className="max-w-7xl mx-auto px-6 pb-24 w-full">
         <h3 className="text-brand-gold font-sans text-2xl tracking-widest uppercase mb-6 mt-6 text-center">Featured Work</h3>

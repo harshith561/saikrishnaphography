@@ -6,6 +6,7 @@ import PageHero from '../../components/PageHero';
 import ServiceGallery from '../../components/ServiceGallery';
 import VideoShowcase from '../../components/VideoShowcase';
 import BabyShinePromo from '../../components/BabyShinePromo';
+import ServiceOverview from '../../components/ServiceOverview';
 import { videos } from '../../data/videos';
 
 const VIDEO_TABS = [
@@ -42,6 +43,11 @@ export default function Family() {
           image="/photos/family/1.jpg"
         />
       </div>
+
+      <ServiceOverview 
+        title="Family Photography" 
+        description="Preserve the legacy of your family tree with candid, generational warmth. We specialize in capturing the genuine smiles, laughter, and unbreakable bonds of your family members, ensuring that these timeless heirlooms remain a treasure for generations to come."
+      />
 
       {/* Featured Stills Gallery */}
       <section className="max-w-7xl mx-auto px-6 pb-24 w-full">

@@ -1,6 +1,7 @@
 import { useSEO } from '../../hooks/useSEO';
 import PageHero from '../../components/PageHero';
 import ServiceGallery from '../../components/ServiceGallery';
+import ServiceOverview from '../../components/ServiceOverview';
 
 export default function Event() {
   useSEO({
@@ -14,6 +15,11 @@ export default function Event() {
   return (
     <main className="bg-brand-dark min-h-screen flex flex-col">
       <PageHero topheading="Event Photography" heading="Every Event, Perfectly Framed" subheading="Dynamic, multi-scene energy." description="From keynotes to the dance floor, we capture the pulse of the room." image="/photos/event/2.jpg" />
+
+      <ServiceOverview 
+        title="Event Photography" 
+        description="From high-profile corporate keynotes to energetic private parties and the dance floor, we capture the pulse of the room. Our dynamic event photography ensures every significant moment, candid interaction, and multi-scene energy is perfectly framed and preserved."
+      />
 
       <section className="max-w-7xl mx-auto px-6 pb-24 w-full">
         <h3 className="text-brand-gold font-sans text-2xl tracking-widest uppercase mb-6 mt-6 text-center">Featured Work</h3>

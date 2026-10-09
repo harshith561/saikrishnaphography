@@ -2,6 +2,7 @@ import { useSEO } from '../../hooks/useSEO';
 import PageHero from '../../components/PageHero';
 import ServiceGallery from '../../components/ServiceGallery';
 import BabyShinePromo from '../../components/BabyShinePromo';
+import ServiceOverview from '../../components/ServiceOverview';
 
 export default function Maternity() {
   useSEO({
@@ -15,6 +16,11 @@ export default function Maternity() {
   return (
     <main className="bg-brand-dark min-h-screen flex flex-col">
       <PageHero topheading="Maternity Photography" heading="Glowing, Growing, Becoming" subheading="Soft glow, anticipation." description="Tender and serene portraits that capture the miracle of new life." image="/photos/maternity/2.jpg" />
+
+      <ServiceOverview 
+        title="Maternity Photography" 
+        description="Embrace the miracle of new life with tender, serene portraits. Our maternity photoshoots are designed to provide a soft, empowering experience that beautifully captures your glowing anticipation and the gentle love surrounding your growing family."
+      />
 
       <section className="max-w-7xl mx-auto px-6 pb-24 w-full">
         <h3 className="text-brand-gold font-sans text-2xl tracking-widest uppercase mb-6  mt-6 text-center">Featured Work</h3>

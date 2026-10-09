@@ -1,6 +1,7 @@
 import { useSEO } from '../../hooks/useSEO';
 import PageHero from '../../components/PageHero';
 import ServiceGallery from '../../components/ServiceGallery';
+import ServiceOverview from '../../components/ServiceOverview';
 
 export default function Commercial() {
   useSEO({
@@ -14,6 +15,11 @@ export default function Commercial() {
   return (
     <main className="bg-brand-dark min-h-screen flex flex-col">
       <PageHero  topheading="Commercial Photography"  heading="Photography That Sells the Story" subheading="Clean brand aesthetic." description="Premium product and brand photography with zero compromises." image="/photos/commercial/1.jpg" />
+
+      <ServiceOverview 
+        title="Commercial Photography" 
+        description="Elevate your brand with premium commercial and product photography crafted with zero compromises. Whether it's showcasing products, real estate, or corporate identity, our clean and professional imagery is tailored to sell your brand story and captivate your target audience."
+      />
 
       <section className="max-w-7xl mx-auto px-6 pb-24 w-full">
         <h3 className="text-brand-gold font-sans text-2xl tracking-widest uppercase mb-6 mt-6 text-center">Featured Work</h3>

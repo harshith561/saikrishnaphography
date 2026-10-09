@@ -2,6 +2,7 @@ import { useSEO } from '../../hooks/useSEO';
 import PageHero from '../../components/PageHero';
 import ServiceGallery from '../../components/ServiceGallery';
 import VideoShowcase from '../../components/VideoShowcase';
+import ServiceOverview from '../../components/ServiceOverview';
 import { getVideosByCategory } from '../../data/videos';
 
 export default function PreWedding() {
@@ -23,6 +24,11 @@ export default function PreWedding() {
         subheading="Romantic, cinematic, outdoors."
         description="Airy, golden hour portraits that capture the anticipation of your journey together."
         image="/photos/pre-wedding/2.jpg"
+      />
+
+      <ServiceOverview 
+        title="Pre-Wedding Photography" 
+        description="Capture the romantic anticipation of your journey together with airy, golden hour portraits and cinematic love story films. We highlight your authentic connection in stunning outdoor locations, creating beautiful visual poetry that sets the stage for your wedding day."
       />
 
       <section className="max-w-7xl mx-auto px-6 pb-24 w-full">

@@ -1,6 +1,7 @@
 import { useSEO } from '../../hooks/useSEO';
 import PageHero from '../../components/PageHero';
 import ServiceGallery from '../../components/ServiceGallery';
+import ServiceOverview from '../../components/ServiceOverview';
 
 export default function PostWedding() {
   useSEO({
@@ -14,6 +15,11 @@ export default function PostWedding() {
   return (
     <main className="bg-brand-dark min-h-screen flex flex-col">
       <PageHero topheading="Post-Wedding Photography" heading="The Story Continues" subheading="Intimate, quiet, reflective." description="Relaxed and unposed documentary realism of your new life together." image="/photos/post-wedding/2.jpg" />
+
+      <ServiceOverview 
+        title="Post-Wedding Photography" 
+        description="Let the story of your new life together continue with relaxed, unposed documentary realism. Our post-wedding sessions focus on capturing the intimate, quiet, and reflective moments that define your unique bond away from the hustle of the wedding day."
+      />
 
       <section className="max-w-7xl mx-auto px-6 pb-24 w-full">
         <h3 className="text-brand-gold font-sans text-2xl tracking-widest uppercase mb-6 mt-6 text-center">Featured Work</h3>
