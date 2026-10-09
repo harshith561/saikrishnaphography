@@ -40,19 +40,19 @@ export default function ServicesMaster() {
             <span className="text-brand-gold font-sans text-xs tracking-[0.3em] uppercase">Unmatched Excellence</span>
             <div className="w-12 h-px bg-brand-gold/60"></div>
           </div>
-          
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif text-brand-ivory font-light leading-[1.2] mb-10">
+
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif text-brand-ivory font-light leading-[1.2] mb-10">
             The Premier Photography Services <br className="hidden md:block" />
             <span className="text-brand-gold italic">in Vijayawada</span>
-          </h2>
-          
+          </h1>
+
           <p className="text-brand-ivory/80 text-lg md:text-xl font-sans leading-relaxed max-w-3xl mx-auto font-light mb-6">
-            From intimate weddings and milestone maternity shoots to grand corporate events, Sai Krishna Photography offers a comprehensive suite of premium visual storytelling services. 
+            From intimate weddings and milestone maternity shoots to grand corporate events, Sai Krishna Photography offers a comprehensive suite of premium visual storytelling services.
           </p>
           <p className="text-brand-ivory/60 text-base font-sans leading-relaxed max-w-2xl mx-auto">
             We are widely recognized as the best photography studio in Vijayawada, combining over three decades of artistic mastery with cutting-edge cinematic technology to deliver unparalleled quality across every discipline. Whatever your story, we have the vision to capture it.
           </p>
-          
+
           <div className="mt-16 flex flex-wrap justify-center gap-8 md:gap-16 border-t border-brand-charcoal/50 pt-12 max-w-3xl mx-auto">
             <div className="text-center">
               <span className="block text-brand-gold font-serif text-4xl mb-2">12+</span>

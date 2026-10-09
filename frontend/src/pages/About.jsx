@@ -51,7 +51,7 @@ export default function About() {
         {/* The Team / Approach */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="order-last md:order-first">
-            <h2 className="text-3xl font-serif text-brand-ivory font-light mb-6">Our Approach</h2>
+            <h1 className="text-3xl font-serif text-brand-ivory font-light mb-6">Our Approach</h1>
             <div className="w-12 h-[1px] bg-brand-gold mb-6"></div>
             <p className="text-brand-ivory/70 font-sans leading-relaxed mb-4 text-sm md:text-base">
               We describe our style as documentary realism infused with cinematic elegance. We aren't just taking pictures; we are crafting heirlooms.

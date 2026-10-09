@@ -25,7 +25,7 @@ export default function Contact() {
 
           {/* Form Side */}
           <div>
-            <h2 className="text-3xl font-serif text-brand-ivory font-light mb-8">Send an Inquiry</h2>
+            <h1 className="text-3xl font-serif text-brand-ivory font-light mb-8">Send an Inquiry</h1>
             <ContactForm />
           </div>
 

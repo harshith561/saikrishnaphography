@@ -36,19 +36,19 @@ export default function Home() {
         >
           {/* Subtle background quote mark */}
           <div className="absolute top-0 left-1/2 -translate-x-1/2 text-brand-gold/5 font-serif text-[15rem] leading-none pointer-events-none select-none -z-0">"</div>
-          
+
           <div className="relative z-10">
             <span className="text-brand-gold font-sans text-xs tracking-[0.3em] uppercase mb-4 block">The Legacy</span>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif text-brand-ivory font-light mb-8">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif text-brand-ivory font-light mb-8">
               Every Frame <span className="text-brand-gold italic">Tells a Story</span>
-            </h2>
+            </h1>
             <div className="w-16 h-[1px] bg-brand-gold/60 mx-auto mb-10"></div>
-            
+
             <div className="space-y-8 max-w-4xl mx-auto">
               <p className="text-brand-ivory text-xl md:text-3xl font-serif leading-relaxed md:leading-loose font-light">
                 From the quiet anticipatory moments before the vows, to the grand celebrations that echo through generations.
               </p>
-              
+
               <div className="flex items-center justify-center gap-4 py-2">
                 <div className="w-16 h-px bg-brand-charcoal"></div>
                 <div className="w-1.5 h-1.5 rounded-full bg-brand-gold/30"></div>
@@ -58,7 +58,7 @@ export default function Home() {
               <p className="text-brand-ivory/60 font-sans leading-loose text-sm md:text-base tracking-wide text-justify md:text-center">
                 Recognized as the premier luxury photography studio in Vijayawada and across Andhra Pradesh, Sai Krishna Photography brings over 30 years of unparalleled expertise to your most cherished celebrations. Whether you are seeking the best wedding photographers in Vijayawada or high-end 4K cinematic videography, our timeless approach ensures your legacy is preserved beautifully in a way that feels completely authentic to you.
               </p>
-              
+
               <p className="text-brand-ivory/60 font-sans leading-loose text-sm md:text-base tracking-wide text-justify md:text-center">
                 We pride ourselves on a documentary style that captures raw, unscripted emotions—be it the tender warmth of a maternity shoot, the joyous chaos of a milestone birthday, or the monumental scale of a corporate event. Featuring state-of-the-art aerial drone coverage and elite studio portraiture, our dedicated team of visual artists guarantees a world-class, premium experience from the very first click to the final cinematic reel.
               </p>
