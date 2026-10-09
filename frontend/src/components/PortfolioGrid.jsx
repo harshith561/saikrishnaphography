@@ -107,10 +107,12 @@ export default function PortfolioGrid({ items = 9, startIndex = 0, showFilters =
               >
                 <img
                   src={item.src}
-                  alt={`${item.title || item.label} photography by Sai Krishna`}
+                  alt={`${item.title || item.label || 'Portfolio'} photography by Sai Krishna`}
+                  width="800"
+                  height="1000"
+                  loading="lazy"
                   onError={hideOnError}
                   className="absolute inset-0 w-full h-full object-cover object-[center_20%] group-hover:scale-105 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)]"
-                  loading="lazy"
                 />
 
                 {/* Floating expand icon in top right on hover */}

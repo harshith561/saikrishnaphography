@@ -32,6 +32,9 @@ export default function ServiceGallery({ theme }) {
           <img
             src={images[0]?.src || themePhoto(theme, 1)}
             alt={images[0]?.title || `${theme} photo 1`}
+            width="800"
+            height="1200"
+            loading="lazy"
             onError={hideOnError}
             className="absolute inset-0 w-full h-full object-cover object-[center_20%] group-hover:scale-105 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)]"
           />
@@ -63,6 +66,9 @@ export default function ServiceGallery({ theme }) {
           <img
             src={images[1]?.src || themePhoto(theme, 2)}
             alt={images[1]?.title || `${theme} photo 2`}
+            width="600"
+            height="400"
+            loading="lazy"
             onError={hideOnError}
             className="absolute inset-0 w-full h-full object-cover object-[center_20%] group-hover:scale-105 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)]"
           />
@@ -93,6 +99,9 @@ export default function ServiceGallery({ theme }) {
           <img
             src={images[2]?.src || themePhoto(theme, 3)}
             alt={images[2]?.title || `${theme} photo 3`}
+            width="600"
+            height="400"
+            loading="lazy"
             onError={hideOnError}
             className="absolute inset-0 w-full h-full object-cover object-[center_20%] group-hover:scale-105 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)]"
           />

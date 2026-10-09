@@ -9,6 +9,7 @@ import Portfolio from './pages/Portfolio';
 import Reviews from './pages/Reviews';
 import Contact from './pages/Contact';
 import ServicesMaster from './pages/ServicesMaster';
+import NotFound from './pages/NotFound';
 
 // Distinct Service Pages
 import Wedding from './pages/services/Wedding';
@@ -51,6 +52,9 @@ export default function App() {
             <Route path="/services/commercial" element={<Commercial />} />
             <Route path="/services/drone" element={<Drone />} />
             <Route path="/packages" element={<Packages />} />
+            
+            {/* 404 Page */}
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
         <Footer />

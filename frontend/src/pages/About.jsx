@@ -26,6 +26,9 @@ export default function About() {
             <img
               src="/photos/about/1.jpg"
               alt="A Legacy of Light"
+              width="600"
+              height="800"
+              loading="lazy"
               onError={hideOnError}
               className="absolute inset-0 w-full h-full object-cover"
             />
@@ -74,6 +77,9 @@ export default function About() {
             <img
               src="/photos/about/2.jpg"
               alt="Our Approach"
+              width="800"
+              height="600"
+              loading="lazy"
               onError={hideOnError}
               className="absolute inset-0 w-full h-full object-cover"
             />

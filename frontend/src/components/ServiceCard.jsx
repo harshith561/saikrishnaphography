@@ -9,7 +9,10 @@ export default function ServiceCard({ service }) {
       {service.image && (
         <img 
           src={service.image} 
-          alt={service.title}
+          alt={service.title || "Photography service"}
+          loading="lazy"
+          width="600"
+          height="800"
           onError={hideOnError}
           className="absolute inset-0 w-full h-full object-cover z-0 group-hover:scale-105 transition-transform duration-700 ease-custom"
         />

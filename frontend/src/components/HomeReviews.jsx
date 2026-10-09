@@ -105,7 +105,10 @@ export default function HomeReviews() {
                   <div className="flex items-center gap-4 mb-6">
                     <img 
                       src={review.image} 
-                      alt={review.name} 
+                      alt={`Review by ${review.name}`} 
+                      loading="lazy"
+                      width="48"
+                      height="48"
                       className="w-12 h-12 rounded-full object-cover border border-brand-gold/30"
                     />
                     <div>
