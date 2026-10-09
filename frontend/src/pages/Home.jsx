@@ -36,8 +36,11 @@ export default function Home() {
         >
           <h2 className="text-3xl md:text-5xl font-serif text-brand-ivory font-light mb-6">Every Frame Tells a Story</h2>
           <div className="w-12 h-[1px] bg-brand-gold mx-auto mb-6"></div>
-          <p className="text-brand-ivory/70 font-sans leading-relaxed text-sm md:text-base">
+          <p className="text-brand-ivory text-lg md:text-xl font-serif leading-relaxed mb-6 font-light">
             From the quiet anticipatory moments before the vows, to the grand celebrations that echo through generations.
+          </p>
+          <p className="text-brand-ivory/50 font-sans leading-loose text-sm md:text-base tracking-wide max-w-3xl mx-auto">
+            Recognized as the premier luxury photography studio in Vijayawada and across Andhra Pradesh, Sai Krishna Photography brings over 30 years of unparalleled expertise to your most cherished celebrations. Whether you are seeking the best wedding photographers in Vijayawada or high-end cinematic videography, our timeless approach ensures your legacy is preserved beautifully.
           </p>
         </motion.section>
 
